@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/practica9_20090133.iml" filepath="$PROJECT_DIR$/practica9_20090133.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica9_20090133-grailsPlugins.iml" filepath="$PROJECT_DIR$/practica9_20090133-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
