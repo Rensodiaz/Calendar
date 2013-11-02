@@ -66,6 +66,6 @@ grails.project.dependency.resolution = {
 
         compile ":quartz:1.0-RC13"
 
-
+        compile ":tropo-webapi-grails:0.2.1"
     }
 }

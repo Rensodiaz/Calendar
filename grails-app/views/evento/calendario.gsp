@@ -32,7 +32,7 @@
             $('#calendar').fullCalendar({
                 dayClick: function(date) {
                     //var d = $('#calendar').fullCalendar('getDate');
-                    //$("#da").datepicker("setDate", new Date(date)); //datpicker("setDate", startDate);
+//                    $("#fecha").val(date); //datpicker("setDate", startDate);
                     $( "#dialog" ).dialog( "open" );
                 },
                 editable: true,
@@ -98,8 +98,9 @@
     <div id="dialog" title="Agregar Evento">
         <g:form action="gregarEvento" controller="Evento" id="agregarEvento" name="agregarEvento">
             <strong>Titulo: </strong><input type="text" name="titulo" required="true"><br>
-            <Strong>Fecha Inicio</Strong><br>
+            <Strong>Fecha Inicio: </Strong><br>
             <g:datePicker name="fechaInicio" id="fecha"></g:datePicker><br>
+            %{--<input type="text" name="fechaInicio" id="fecha" /><br>--}%
             <input type="submit" value="agregar"/>
         </g:form>
     </div>

@@ -4,6 +4,7 @@ class Evento {
 
     String title;
     Date start;
+    boolean Enviado;
 
     static constraints = {
         title(nullable: true);
